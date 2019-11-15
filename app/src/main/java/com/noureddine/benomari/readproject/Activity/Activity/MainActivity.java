@@ -116,14 +116,14 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
         Intent intent = new Intent(MainActivity.this, AboutActivity.class);
         startActivity(intent);
     }
-
+    //CONTACT BY MAIL THE DEVELOPER
     private void sendMail() {
         Intent mail = new Intent(Intent.ACTION_SEND);
         mail.putExtra(Intent.EXTRA_EMAIL, new String[]{"sudout.h@gmail.com"});
         mail.setType("message/rfc822");
         startActivity(Intent.createChooser(mail, "Send email via:"));
     }
-
+    //ASK USER FOR FEEDBACK AND REDIRECT HIM TO APP PAGE IN THE PLAY STORE
     private void askFeedback() {
         Uri uri = Uri.parse("market://details?id=" + getApplicationContext().getPackageName());
         Intent goToMarket = new Intent(Intent.ACTION_VIEW, uri);
@@ -161,9 +161,8 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
         }
 
     }
-
+    //SHOW SCANNER FRAGMENT
     public void showScannerFragment() {
-
         Fragment scannerFragment = new ScannerFragment();
         this.startTransactionFragment(scannerFragment);
         toolbar.setBackgroundColor(ContextCompat.getColor(this, R.color.colorScanner));
@@ -172,7 +171,7 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
         toolbar.setTitle("Scanner");
 
     }
-
+    //SHOW OCR FRAGMENT
     public void showMainFragment() {
         this.mainFragment = new MainFragment();
         this.startTransactionFragment(this.mainFragment);

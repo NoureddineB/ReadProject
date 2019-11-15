@@ -54,7 +54,7 @@ public class ScannerFragment extends Fragment {
         return v;
     }
 
-
+    //Configure button
     private void configureButton() {
         button_Scanner_camera.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -95,7 +95,7 @@ public class ScannerFragment extends Fragment {
     }
 
 
-    //FOR ACTIVITY RESULT
+    //Get result from the scan activity
     @Override
     public void onActivityResult(int requestCode, int resultCode, Intent data) {
         //RESULT FROM SCAN ACTIVITY
@@ -116,7 +116,7 @@ public class ScannerFragment extends Fragment {
         }
     }
 
-
+    //Start an ad when you chose to use the camera
     private void startScannerCamera() {
         if (mInterstitialAd.isLoaded()) {
             mInterstitialAd.show();
@@ -124,7 +124,7 @@ public class ScannerFragment extends Fragment {
         openCamera();
 
     }
-
+    //Start an ad when you chose to use the gallery
     private void startScannerGallery() {
         if (mInterstitialAd.isLoaded()) {
             mInterstitialAd.show();
@@ -133,14 +133,14 @@ public class ScannerFragment extends Fragment {
 
     }
 
-
+    //Use phone camera to take the picture you want to be scanned
     private void openCamera() {
         int preference = ScanConstants.OPEN_CAMERA;
         Intent intent = new Intent(getContext(), ScanActivity.class);
         intent.putExtra(ScanConstants.OPEN_INTENT_PREFERENCE, preference);
         startActivityForResult(intent, OPEN_THING);
     }
-
+    //Open gallery to chose something to scan
     private void openGallery() {
         int preference = ScanConstants.OPEN_MEDIA;
         Intent intent = new Intent(getContext(), ScanActivity.class);
@@ -178,12 +178,12 @@ public class ScannerFragment extends Fragment {
         } catch (IOException e) {
             Toast.makeText(getContext(), "Something wrong: " + e.toString(), Toast.LENGTH_LONG).show();
         }
-        // close the document
+        // close the document then show it
         document.close();
         showPDF(targetPdf);
 
     }
-
+    //Show the pdf
     private void showPDF(String targetpdf) {
         File file = new File(targetpdf);
         Uri photoURI = FileProvider.getUriForFile(getContext(), BuildConfig.APPLICATION_ID + ".provider", file);
@@ -192,7 +192,7 @@ public class ScannerFragment extends Fragment {
         intent.addFlags(Intent.FLAG_GRANT_READ_URI_PERMISSION);
         startActivity(intent);
     }
-
+    //Name the pdf with the choice of the user
     private void pdfDialog(final Bitmap bitmap) {
         new AlertDialog.Builder(getContext()).setView(R.layout.pdf_dialog_layout).setPositiveButton(R.string.PdfTitleOK, new DialogInterface.OnClickListener() {
             @Override

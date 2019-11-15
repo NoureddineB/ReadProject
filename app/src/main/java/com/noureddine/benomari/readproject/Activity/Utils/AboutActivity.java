@@ -18,6 +18,7 @@ public class AboutActivity extends AppCompatActivity {
         setContentView(R.layout.activity_about);
 
     }
+    //OPEN THE GITHUB OF THE LIBRARY USED IN THE APP
     public void openWebPage(View v) {
         Intent i = new Intent(Intent.ACTION_VIEW);
         i.setData(Uri.parse(webURL));

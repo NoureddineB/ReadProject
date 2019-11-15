@@ -94,7 +94,7 @@ public class ResultActivity extends AppCompatActivity {
 
 
     }
-
+    //SHOW AD
     private void showInterstitialAd2() {
         if (mInterstitialAd2.isLoaded()) {
             mInterstitialAd2.show();
@@ -113,7 +113,7 @@ public class ResultActivity extends AppCompatActivity {
         getMenuInflater().inflate(R.menu.result_toolbar_menu, menu);
         return true;
     }
-
+    //Option after reading the text : share or make a PDF
     public boolean onOptionsItemSelected(MenuItem item) {
         switch (item.getItemId()) {
             case id.action_share:
@@ -173,7 +173,7 @@ public class ResultActivity extends AppCompatActivity {
 
 
     }
-
+    //Detect the text in the picture
     private void detectText(FirebaseVisionText text) {
         String resultText = (text.getText());
         for (FirebaseVisionText.TextBlock block : text.getTextBlocks()) {
@@ -216,7 +216,7 @@ public class ResultActivity extends AppCompatActivity {
         sharingIntent.putExtra(android.content.Intent.EXTRA_TEXT, s);
         startActivity(Intent.createChooser(sharingIntent, "Share text via"));
     }
-
+    //Open dialog when there is no text in the picture
     public void openDialog() {
         final AlertDialog alertDialog = new AlertDialog.Builder(this).create();
 
