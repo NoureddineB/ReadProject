@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">ScanLibrary</string>
+    <string name="action_settings">Paramètres</string>
+    <string name="applying_filter">Appliquer le filtre</string>
+    <string name="cantCrop">Changer le point de vue</string>
+    <string name="done">Donner un titre</string>
+    <string name="hello_world">Hello world !</string>
+    <string name="loading">"Chargement "</string>
+    <string name="low_memory">Mémoire faible</string>
+    <string name="ok">Ok</string>
+    <string name="scan">Suivant</string>
+    <string name="scanning">Scan en cours</string>
+</resources>

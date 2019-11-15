@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="textview">Patientez…</string>
+    <string name="contact">Contacter</string>
+    <string name="choose_a_title">Choisir un titre :</string>
+    <string name="about">À propos</string>
+    <string name="feedback">"Feedback"</string>
+    <string name="PdfTitleOK">C\'est bon !</string>
+    <string name="PdfTitle">Annuler</string>
+    <string name="DialogTryAgain">Erreur !</string>
+    <string name="DialogNoTextFound">Aucun texte détecter.</string>
+    <string name="app_name" translatable="false">Read and Scan [OCR]</string>
+    <string name="help">Aide</string>
+    <string name="find_pdf">Vous pouvez trouver tout les pdf fait avec cette application dans un dossier nommé : Read and Scan [OCR] dans la mémoire de votre smartphone.</string>
+</resources>

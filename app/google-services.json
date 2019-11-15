@@ -1,0 +1,57 @@
+{
+  "project_info": {
+    "project_number": "397677295260",
+    "firebase_url": "https://readproject-17f77.firebaseio.com",
+    "project_id": "readproject-17f77",
+    "storage_bucket": "readproject-17f77.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:397677295260:android:e47fd8b57d8d4c0e",
+        "android_client_info": {
+          "package_name": "com.noureddine.benomari.readproject"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "397677295260-0f7rtmcqvh42njgo3n0kllsvsqcqemb5.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.noureddine.benomari.readproject",
+            "certificate_hash": "d4823509e9fc44adb5d1a0301f209d33c2e61939"
+          }
+        },
+        {
+          "client_id": "397677295260-s028oe3hr7bbftpfjlvu0divm0tur40d.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.noureddine.benomari.readproject",
+            "certificate_hash": "41585982d4153b441a689e0cf9d98bd938d6448d"
+          }
+        },
+        {
+          "client_id": "397677295260-06mflptb14a39krh71d7cv16ve80108c.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyClax_RhfIol7DjiM8woLlp-r83q_5SASQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "397677295260-06mflptb14a39krh71d7cv16ve80108c.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      },
+      "admob_app_id": "ca-app-pub-2681791564432660~7084535561"
+    }
+  ],
+  "configuration_version": "1"
+}

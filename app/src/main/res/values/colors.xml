@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#425172</color>
+    <color name="colorButton">#311b92</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="colorWhite">#FFF</color>
+    <color name="colorBlack">#000</color>
+    <color name="colorToolbarStart">#a8b5ff</color>
+    <color name="colorToolBar">#576b97</color>
+    <color name="colorScanner">#be6464</color>
+    <color name="colorScannerToolbar">#a15353</color>
+
+</resources>

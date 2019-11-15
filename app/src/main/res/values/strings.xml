@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">Read and Scan [OCR]</string>
+    <string name="textview">Please wait…</string>
+    <string name="navigation_drawer_open" translatable="false">Open navigation drawer</string>
+    <string name="navigation_drawer_close" translatable="false">Close navigation drawer</string>
+    <string name="ScannerLibrary" translatable="false">Android Scanner Demo is the library used in this app for the scanner part. Click here to see his work and thanks the creator.</string>
+    <string name="choose_a_title">Choose a title :</string>
+    <string name="feedback">Feedback</string>
+    <string name="contact">Contact</string>
+    <string name="about">About</string>
+    <string name="DialogTryAgain">Try Again</string>
+    <string name="DialogNoTextFound">No text found.</string>
+    <string name="PdfTitleOK">Done !</string>
+    <string name="PdfTitle">Cancel</string>
+    <string name="help">Help</string>
+    <string name="find_pdf">You can find all the pdf you made with this app in a folder named : Read and Scan [OCR] in your phone memory.</string>
+</resources>

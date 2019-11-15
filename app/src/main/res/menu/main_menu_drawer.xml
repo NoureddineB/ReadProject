@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+
+    xmlns:tools="http://schemas.android.com/tools"
+
+    tools:showIn="navigation_view">
+
+
+
+
+
+    <item
+        android:id="@+id/activity_main_drawer_feedback"
+        android:icon="@drawable/ic_send_white_36dp"
+        android:title="@string/feedback" />
+
+    <item
+        android:id="@+id/activity_main_drawer_contact"
+        android:icon="@drawable/ic_mail_outline_white_36dp"
+        android:title="@string/contact" />
+
+    <item
+        android:id="@+id/activity_main_drawer_about"
+        android:icon="@drawable/ic_info_outline_white_36dp"
+        android:title="@string/about" />
+
+
+
+
+
+</menu>

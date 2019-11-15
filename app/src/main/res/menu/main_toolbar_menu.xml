@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:tools="http://schemas.android.com/tools"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".Activity.Activity.ResultActivity">
+
+
+    <item
+        android:id="@+id/action_share"
+        android:icon="@drawable/ic_photo_camera_white_36dp"
+        android:title="Read"
+        app:showAsAction="ifRoom|collapseActionView" />
+    <item
+        android:id="@+id/action_dont"
+        android:icon="@drawable/ic_scanner_white_36dp"
+        android:title="Scan"
+        app:showAsAction="always|collapseActionView" />
+
+
+
+
+</menu>
